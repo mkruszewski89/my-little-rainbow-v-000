@@ -1,3 +1,4 @@
+read
 # My Little Rainbow
 
 In this lab, we're going to make a rainbow with HTML `<div>` elements. And while we do it we're going to learn about HTML elements, CSS styling, CSS selectors, how color works in CSS, and importing stylesheets.  That might sound like a lot but it isn't.
@@ -20,7 +21,7 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
   + Classes can be used as many times as you want. E.g.: `<div class="a-less-special-div"></div>`.
 - Elements nested inside other elements are called children.
   + Children inherit attributes from their parents.
-  + Don't nest everything. 
+  + Don't nest everything.
 - Elements next to one another are siblings.
   + Siblings do not inherit from one another, but are important for selecting in CSS.
 
@@ -57,12 +58,12 @@ First off make sure you have [forked](https://github.com/learn-co-students/my-li
 In that directory you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
 
 ### Making the Divs Visible
-If you use the inspector or look at the file in your text editor, you'll see that the basic file stucture is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles. 
+If you use the inspector or look at the file in your text editor, you'll see that the basic file stucture is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles.
 
 Let's fix this by adding the stylesheet to the `head` like so,
 ```html
 <head>
-... 
+...
   <link rel="stylesheet" type="text/css" href="main.css">
 ...
 </head>
